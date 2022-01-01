@@ -8,22 +8,8 @@
     "lint": "next lint",
     "test": "jest"
   },
-  "eslintConfig": {
-    "extends": "airbnb-base",
-    "parserOptions": {
-      "ecmaVersion": 8,
-      "sourceType": "module"
-    },
-    "env": {
-      "node": true,
-      "es6": true
-    },
-    "rules": {
-      "no-console": 0,
-      "no-unused-vars": 1
-    }
-  },
   "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2"
