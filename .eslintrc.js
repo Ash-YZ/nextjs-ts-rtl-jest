@@ -9,8 +9,8 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
-    quotes: [2, 'single'],
-    semi: [2, 'always'],
+    '@typescript-eslint/quotes': [2, 'single'],
+    '@typescript-eslint/semi': [2, 'always'],
   },
   env: {
     jest: true,
