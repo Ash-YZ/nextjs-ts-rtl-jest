@@ -17,6 +17,8 @@ module.exports = {
     'array-bracket-spacing': [0],
     'no-confusing-arrow': [0],
     'function-paren-newline': [0],
+    'no-return-assign': [1],
+    'comma-dangle': [0],
   },
   env: {
     jest: true,

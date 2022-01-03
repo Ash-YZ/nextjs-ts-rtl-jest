@@ -7,12 +7,12 @@ type Data = {
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>,
+  res: NextApiResponse<Data>
 ) {
   const version = Math.floor(Math.random() * 10000);
 
   const data = await fetch(
-    `http://localhost:3000/assets/data/studios.csv?v=${version}`,
+    `http://localhost:3000/assets/data/studios.csv?v=${version}`
   );
   const studios = await data.text();
   res.status(200).json({ studios });
